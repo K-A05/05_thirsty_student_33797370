@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About <%= shopName %></title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>About <%= shopName %></h1>
+  <p>Welcome to <%= shopName %>! Here are our shop locations and managers:</p>
+
+  <ul>
+    <% shops.forEach(shop => { %>
+      <li>
+        <strong><%= shop.location %> Shop</strong><br>
+        Manager: <%= shop.manager %><br>
+        Address: <%= shop.address %>
+      </li>
+    <% }); %>
+  </ul>
+
+  <a href="/">Back to Home</a>
+</body>
+</html>

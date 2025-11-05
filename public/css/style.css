@@ -1,0 +1,88 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General layout */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f7f9fb;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header & Titles */
+h1, h2 {
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Forms */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input[type="submit"] {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #003b88;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.9em;
+}
+
+/* Search Results */
+.search-results {
+  background: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}

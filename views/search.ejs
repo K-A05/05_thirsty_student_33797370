@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%=shopName%></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Search for Drinks</h1>
+        <h2>This is the search page</h2>
+    </header>
+    <main>
+        <form action="/search_result" method="GET">
+            <input id="search_box" type="text" name="search_text" placeholder="Search for drinks...">
+            <input id="search_box" type="text" name="category" placeholder="Category...">
+            <input type="submit" value="OK" >
+        </form>
+      
+        <!-- Results will be displayed here -->
+        <section class="search-results">
+            <!-- Results will be populated dynamically -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 <%=shopName%></p>
+    </footer>
+</body>
+</html></form>
