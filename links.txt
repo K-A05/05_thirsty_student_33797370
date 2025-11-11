@@ -1,2 +1,1 @@
-home=http://www.doc.gold.ac.uk/usr/457
-/
+home=http://www.doc.gold.ac.uk/usr/457/
